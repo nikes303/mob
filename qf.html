@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+
+    <style>
+        body {
+            background-image: url(K9m.gif);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: Copperplate;
+            font-size: 4vw; /* Responsive font size */
+            color: aliceblue;
+            margin-top: 10vh; /* Vertical margin in viewport height units */
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.5vw; /* Responsive font size */
+            color:crimson;
+        }
+
+        button {
+            margin-top: 10vh;
+            padding: 4vh 8vw; /* Responsive padding */
+            font-family: candara;
+            font-size: 2vw; /* Responsive font size */
+            border-radius: 2vw; /* Responsive border radius */
+            cursor: pointer;
+            border: 5px;
+            border-color: darkred;
+        }
+
+        button:hover {
+            box-shadow: 1vw 1vw 4vw grey; /* Responsive box shadow */
+        }
+
+        button:active {
+            color: white;
+            background-color: black;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for small screens (e.g., smartphones) */
+            h1 {
+                font-size: 6vw;
+            }
+
+            h2 {
+                font-size: 3vw;
+            }
+
+            button {
+                padding: 5vh 10vw;
+                font-size: 3vw;
+                border-radius: 3vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><b><u>QuizFiesta.</u></b></h1>
+    <h2>Test your knowledge by playing a quiz!</h2>
+    <a href="er.html"><button type="button"><b>Play it now!</b></button></a>
+
+</body>
+
+</html>
